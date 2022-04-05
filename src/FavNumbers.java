@@ -13,13 +13,6 @@ public class FavNumbers {
         inputDouble = getDouble(in, "Please enter your favorite double: ");
         System.out.println("Your favorite integer is: " + inputInt + " and favorite double is: " + inputDouble);
     }
-
-    /**
-     *
-     * @param pipe
-     * @param prompt
-     * @return - a number that is an integer
-     */
     public static int getInt (Scanner pipe, String prompt)
     {
         boolean done = false;
@@ -42,13 +35,6 @@ public class FavNumbers {
 
         return inputInt;
     }
-
-    /**
-     *
-     * @param pipe
-     * @param prompt
-     * @return - a number that is a double
-     */
     public static double getDouble (Scanner pipe, String prompt)
     {
         boolean done = false;
